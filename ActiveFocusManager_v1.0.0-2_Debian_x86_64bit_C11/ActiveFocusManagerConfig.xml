@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl"?>
+<config>
+ 
+  <monitoring_frequency>1</monitoring_frequency> <!-- This value must be given in seconds. -->
+  
+  <active_focus_applications>
+    <!--name = {Application Name} matching_criteria = {Contains, Exact}   enable_hid_emulator = {True/true, False/false} -->
+    <application name ="gedit"  matching_criteria = "Contains" enable_hid_emulator = "False"/>
+    <application name ="LibreOffice Writer"  matching_criteria = "Contains" enable_hid_emulator = "True"/>
+    <application name="Ubuntu Desktop Guide" matching_criteria="Exact" enable_hid_emulator="True" />
+  </active_focus_applications>
+</config>
+
